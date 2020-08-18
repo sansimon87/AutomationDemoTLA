@@ -28,7 +28,7 @@ public class UserMgtPageTest extends BaseTest {
 
     @Test(description = "Verifying title of User Management Page")
     public void verifyTitle(){
-        Assert.assertEquals(getDriver().getTitle(), "Register New User");
+        Assert.assertEquals(getDriver().getTitle(), "newDB");
         screenshot.takeScreenshotAndLog();
     }
 
